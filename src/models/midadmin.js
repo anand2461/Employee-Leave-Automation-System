@@ -74,6 +74,7 @@ midAdminSchema.statics.findByCredentials = async (email, password) => {
     }
 
     return user
+    
 }
 
 midAdminSchema.pre('save', async function(next) {
